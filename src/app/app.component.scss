@@ -39,7 +39,12 @@ ul {
     justify-content: space-between;
 }
 
-li {
+ul>li {
+    border: 1px solid white;
+    padding: 2rem;
+}
+
+.li-style{
     border: 1px solid white;
     padding: 2rem;
 }
