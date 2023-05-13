@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: mouse;
+    src: url('./assets/fonts/MuseoModerno-VariableFont_wght.ttf');
+}
+
+html{
+    font-family: mouse;
+    font-size: 10px;
+    background-color:#2d3740 ;
+}
+
+body{
+    padding: 2rem;
+    background-color: #1c262f;
+    color: aliceblue;
+    width:80%;
+    margin: 0px auto;
+
+}

@@ -1,0 +1,67 @@
+.logo {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form>label:first-child {
+    font-size: 1.8rem;
+}
+
+form>input {
+    font-family: inherit;
+    font-size: 2rem;
+    width: 80% !important;
+    margin: 1rem 0 !important;
+    padding: 1rem !important;
+    text-align: center;
+    border: none;
+}
+
+
+
+button {
+    font-family: inherit;
+    font-size: 1.4rem;
+    border: none;
+    font-weight: bolder;
+    padding: 3rem;
+    border-radius: 100%;
+    background: #64d6f3;
+    margin: .5rem 0 1rem 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    border: 1px solid white;
+    padding: 2rem;
+}
+
+.entriesWrapper>h3:first-child {
+    font-size: 2rem;
+    font-weight: lighter;
+    display: block;
+    width: max-content;
+    margin: 2rem auto;
+}
+
+.data {
+    margin-top: 4rem ;
+    font-size: 1.6rem;
+}
+
+.data>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141c22;
+    margin: 1rem 0;
+    padding: 0 .5rem;
+}
