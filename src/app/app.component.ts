@@ -22,6 +22,14 @@ export class AppComponent implements OnInit {
     return total + currentval;
   }
 
+  calcPercentage() {
+    debugger;
+    let sum = Number(this.entries.reduce(this.summer));
+    let percent = (sum / 25) * 100;
+    let element = document.querySelector(".progressCircle") as HTMLDivElement;
+    element.style.background=`conic-gradient(red ${percent}%, #2d3740 ${100-percent}%)`;
+  }
+
   calcTotal() {
     let sum = this.entries.reduce(this.summer).toString();
     document.getElementById("total")!.innerHTML = sum;
@@ -50,6 +58,7 @@ export class AppComponent implements OnInit {
     call.then((data: any) => {
       this.calcAverage();
       this.heigestVal();
+      this.calcPercentage();
     });
 
     let form = document.getElementsByTagName('form')[0] as HTMLFormElement;

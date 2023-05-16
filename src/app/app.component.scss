@@ -44,7 +44,7 @@ ul>li {
     padding: 2rem;
 }
 
-.li-style{
+.li-style {
     border: 1px solid white;
     padding: 2rem;
 }
@@ -58,7 +58,7 @@ ul>li {
 }
 
 .data {
-    margin-top: 4rem ;
+    margin-top: 4rem;
     font-size: 1.6rem;
 }
 
@@ -69,4 +69,31 @@ ul>li {
     background-color: #141c22;
     margin: 1rem 0;
     padding: 0 .5rem;
+}
+
+.progressbar>h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.progressCircleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.progressCircle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressCircleCenter{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #1c262f;
 }
